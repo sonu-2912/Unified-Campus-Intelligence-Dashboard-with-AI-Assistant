@@ -72,16 +72,21 @@ A unified campus dashboard with an AI-powered assistant that lets students acces
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/campus-intelligence-dashboard.git
-cd campus-intelligence-dashboard
+git clone https://github.com/sonu-2912/Unified-Campus-Intelligence-Dashboard-with-AI-Assistant.git
+cd Unified-Campus-Intelligence-Dashboard-with-AI-Assistant
 
 # Install dependencies
 npm install
 
 # Set up environment variables
-cp .env.local.example .env.local
-# Edit .env.local and add your Groq API key
+echo "GROQ_API_KEY=gsk_your_key_here" > .env.local
 ```
+
+On Windows PowerShell, use `npm.cmd` if script execution policy blocks
+`npm`, for example: `npm.cmd install` and `npm.cmd run dev`.
+
+The dashboard pages work without a Groq API key. The key is required for
+CampusAI chat responses.
 
 ### Get a Free Groq API Key
 
@@ -134,6 +139,22 @@ Try these queries with the CampusAI assistant:
 - "Any important notices?"
 - "What's the attendance policy?"
 - "Is the library open on Sunday?"
+
+## Demo Video Flow
+
+1. Introduce the project as one dashboard for library, cafeteria, events,
+   academics, faculty, and campus notices.
+2. Sign in with `student1` and `pass123`, then show the personalized dashboard.
+3. Open Library and search for `algorithms`.
+4. Open Cafeteria and demonstrate the day and dietary filters.
+5. Briefly show event filters, academic tabs, faculty search, and notice
+   priorities.
+6. Open CampusAI and ask:
+   - "What's for lunch today?"
+   - "When are the exams and are there any important notices?"
+7. Explain that the app uses Next.js, six independent campus data modules,
+   and Groq tool calling. The current prototype uses realistic mock data that
+   can later be replaced by institutional databases or APIs.
 
 ## Project Structure
 
