@@ -140,21 +140,7 @@ Try these queries with the CampusAI assistant:
 - "What's the attendance policy?"
 - "Is the library open on Sunday?"
 
-## Demo Video Flow
 
-1. Introduce the project as one dashboard for library, cafeteria, events,
-   academics, faculty, and campus notices.
-2. Sign in with `student1` and `pass123`, then show the personalized dashboard.
-3. Open Library and search for `algorithms`.
-4. Open Cafeteria and demonstrate the day and dietary filters.
-5. Briefly show event filters, academic tabs, faculty search, and notice
-   priorities.
-6. Open CampusAI and ask:
-   - "What's for lunch today?"
-   - "When are the exams and are there any important notices?"
-7. Explain that the app uses Next.js, six independent campus data modules,
-   and Groq tool calling. The current prototype uses realistic mock data that
-   can later be replaced by institutional databases or APIs.
 
 ## Project Structure
 
